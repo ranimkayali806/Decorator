@@ -1,11 +1,12 @@
 from dataclasses import dataclass
 import random
 from faker import Faker
+import datetime
 
 @dataclass
 class Game_Score:
     player_name : str
-    score:int
+    score:int 
 
 
 
