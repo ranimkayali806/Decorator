@@ -56,7 +56,6 @@ if __name__ == "__main__":
         game_scores.append(game_score)
     
     lowest_score = get_lowest_score(game_scores)
-    
     highest_score = get_highest_score(game_scores)
-    lowest, highest = get_lowest_highest_scores(game_scores) # lowest måste vara innan highest
-    print(lowest_score , highest_score)
+    scores = get_lowest_highest_scores(game_scores) # lowest måste vara innan highest
+    print(scores)
